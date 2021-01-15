@@ -130,6 +130,48 @@ h2 {
 	margin-top: 5px;
 }
 
+/* formatar menu lateral */
+#lateral ul a {
+	font-size: 0.9em;
+	padding: 3px;
+	display: block;
+	line-height: 30px;
+	color: #000;
+	text-decoration: none;
+	border-bottom: 1px solid #f3f3f3;
+}
+
+#lateral ul a:hover {
+	background: #f9f9f9 url(../imagens/marcador.png) no-repeat left center;
+	padding-left: 20px;
+	color: #a1a1a1;
+}
+
+/* formatando formularios */
+label {
+	display: block;
+	cursor: pointer;
+}
+
+input {
+	width: 125px;
+	padding: 5px;
+	font-size: 0.9em;
+	background: #fff;
+}
+
+input.submit {
+	margin-top: 5px;
+	width: 95px;
+	color: #fff;
+	background-color: #b10333;
+	border: 2px solid #870529;
+}
+
+input.submit:hover {
+	background: blue;
+}
+
 /* rodape */
 #container-rodape {
 	background: #294c71;
